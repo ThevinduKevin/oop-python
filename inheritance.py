@@ -19,7 +19,6 @@ class Dog(Animal):
 class Cat(Animal):
     pass
 
-
 dog = Dog("Rocky")
 cat = Cat("Kity")
 dog.eat()
