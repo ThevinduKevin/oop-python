@@ -7,12 +7,20 @@ class Car:
         self.color = color
         self.for_sale = for_sale
 
+    def drive(self):
+        print(f"you drive the {self.model}")
+
+    def stop(self):
+        print(f"you stop the {self.model}")
+
 
 car1 = Car("mustang", 2020, "red", False)
 car2 = Car("bmw", 2020, "red", True)
 
 print(car2.color)
 print(car1.model)
+car1.drive()
+car2.stop()
 
 
 """
